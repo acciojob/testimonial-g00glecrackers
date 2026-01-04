@@ -13,34 +13,36 @@
 <meta charset="UTF-8">
 <title>Testimonials</title>
 
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Testimonials</title>
+
 <style>
+  div {
+    box-sizing: border-box;
+  }
+
   /* Main container */
-  .testimonials {
+  .container {
     background-color: #f5f5f5;
     padding: 40px;
     width: 80%;
     margin: 40px auto;
+    font-family: Arial, sans-serif;
   }
 
-  /* Heading */
-  .testimonials h1 {
-    margin-bottom: 20px;
-  }
-
-  /* Individual testimonial box */
+  /* Testimonial box */
   .testimonial {
-    background-color: #ffffff;
+    background-color: white;
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 15px;
   }
 
-  /* Testimonial text */
-  .testimonial p {
-    margin: 0 0 10px 0;
-  }
-
-  /* Author styling */
+  /* Author */
   .author {
     text-align: right;
     font-style: italic;
@@ -50,19 +52,24 @@
 
 <body>
 
-<div class="testimonials">
-  <h1>Testimonials</h1>
+<h1>Testimonials</h1>
+
+<div class="container">
 
   <div class="testimonial">
     <p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
-    <div class="author">- John Doe</div>
+    <p class="author">- John Doe</p>
   </div>
 
   <div class="testimonial">
     <p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
-    <div class="author">- Jane Smith</div>
+    <p class="author">- Jane Smith</p>
   </div>
+
 </div>
+
+</body>
+</html>
 
 </body>
 </html>
